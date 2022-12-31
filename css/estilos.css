@@ -326,7 +326,7 @@ span.diff {
 
 }
 
-.btn-secondary:focus,
+
 .btn-secondary.focus {
     background-color: none !important;
     border-color: none !important;
@@ -346,13 +346,6 @@ span.diff {
 .btn-theme1:hover {
     background: var(--theme-color);
     outline: none;
-}
-
-.btn-secondary:focus,
-.btn-secondary.focus {
-    background-color: none !important;
-    border-color: none !important;
-    box-shadow: none !important;
 }
 
 .btn-theme1:focus {
@@ -440,12 +433,7 @@ span.diff {
     border-color: none !important;
 }
 
-.btn-secondary:focus,
-.btn-secondary.focus {
-    background-color: none !important;
-    border-color: none !important;
-    box-shadow: none !important;
-}
+
 
 a.red {
     font-size: 16px;
@@ -1418,10 +1406,6 @@ border: 1px rgba(0, 0, 0, 0.09) solid;
     display: grid;
 }
 
-.item_services {
-    font-weight: 400;
-    }
-
 .titles_services {
     display: flex;
     list-style: none;
@@ -1431,7 +1415,6 @@ border: 1px rgba(0, 0, 0, 0.09) solid;
     align-items: center;
     justify-content: center;
 }
-
 
 
 .tank-feature-3 .three-grids-columns {
@@ -3098,12 +3081,56 @@ li:last-child{
     border-radius: 4px;
 }
 
+
 .tank-pricing-7 p.pric-foot span {
     color: #fb1b26;
 }
 
 .tank-pricing-7 .buy-button .buttonbg {
     width: 100%;
+}
+
+.btn-services{
+    
+    flex-wrap: nowrap;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.text_services {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 30px;
+    top: 20%;
+    left: 8%;
+    max-width: 80%;
+}
+
+.content_service-unit{
+    display: grid;
+    grid-template-rows: inherit;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    width: 100%;
+    height: 100px;
+
+}
+
+.img_services{
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    max-width: 65%;
+    max-height: 90px;
+    margin: 5px;
+
+}
+
+.item_services{
+    width: 350px;
+
 }
 
 .tank-pricing-7 li.tick-info.disable {
