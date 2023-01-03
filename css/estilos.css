@@ -197,7 +197,7 @@ ul.show {
     }
 
 }
-@media screen and (max-width: 858px) and (orientation: landscape){
+/* @media screen and (max-width: 858px) and (orientation: landscape){
     .menu_items li {
         margin: 5px 0 0 0;
     }
@@ -205,7 +205,7 @@ ul.show {
         overflow: scroll;
         height: calc(100% - 65px);
     }
-}
+} */
 
 .tank-main-banner h2:hover {
 
@@ -3601,6 +3601,8 @@ iframe {
     
 }
 
+
+
 .enlace-post {
     text-decoration: none;
 
@@ -3641,21 +3643,42 @@ iframe {
     #principal {
         font-size: 16px;
         width: 100%;
-        height: 500px;
-        margin-left: 40px;
+        height: 700px;
+        margin-left: 0.5px;
+        padding: 5px;
         
     }
 
     .parrafo-post {
         width: 100%;
         
-        
-       
-        
+    }
+
+    .titulo-post {
+        text-align: center;
+    }
+
+    .btn-ir_servicios_transito{
+        color: #fff;
+        font-weight: 600;
+        background-color: #ff8800;
+        font-size: x-large;
+        padding: 10px;
+        border-radius: 10px;
     }
     #publicaciones {
-        width: 80%;
+        width: 100%;
+        text-align: justify;
+        padding: 10px;
+       
+    }
+    .principal::-webkit-scrollbar p {
+        width: 7px;
         
+    }
+    .principal::-webkit-scrollbar-thumb p{
+        background: rgb(170, 11, 6);
+
     }
 }
 
