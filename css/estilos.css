@@ -3581,9 +3581,10 @@ iframe {
     width: 70%;
     height: auto; overflow: hidden;
     border: 1px solid #ff8800;
+    margin: 60px;
     margin-top: 30px;
     color: #fff;
-
+    
 
 }
 
@@ -3651,6 +3652,7 @@ iframe {
 
     .parrafo-post {
         width: 100%;
+        ;
         
     }
 
@@ -3670,6 +3672,7 @@ iframe {
         width: 100%;
         text-align: justify;
         padding: 10px;
+        margin: 5px;
        
     }
     .principal::-webkit-scrollbar p {
@@ -3693,6 +3696,12 @@ iframe {
 
 .titulo-post {
     text-align: center;
+}
+
+.phones {
+    font-size: 25px;
+    width: 300px; 
+    cursor: pointer;   
 }
 
 
