@@ -163,8 +163,11 @@
 
                 
     </section>
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-angle-up"></span>
+        </button>
 
-
+    
     <section class="tank-footer-29-main" id="footer">
         <div class="footer-29 text-center">
             <div class="container">
@@ -176,61 +179,56 @@
                     <a href="#" class="linkedin"><span class="fa fa-linkedin"></span></a>
                 </div>
                 <div class="bottom-copies text-center">
-                    <p class="copy-footer-29">Derechos de autor. Todos los temas, imágenes y contenidos, son propiedad y creación de Alexander Gonzalez y Abogados Asociados S.A.S. © [2022]<a href="#">Volver</a></p>
+                    <p class="copy-footer-29">Derechos de autor. Todos los temas, imágenes y 
+                        contenidos, son propiedad y creación de Alexander Gonzalez y Abogados 
+                        Asociados S.A.S. © [2022]<a href="index.html">Volver</a></p>
                 </div>
             </div>
         </div>
-        <button onclick="topFunction()" id="movetop" title="Go to top">
-        <span class="fa fa-angle-up"></span>
-        </button>
-            <script>
-                window.onscroll = function() {
-                    scrollFunction()
-                };
 
-                function scrollFunction() {
-                    if(document.body.scrollTop > 20 || document.documentElement. scrollTop > 20) {
-                        document.getElementById("movetop").style.display = "block";
-                    }else{
-                        document.getElementById("movetop").style.display = "none";
-                    }
-                }
-
-                function topFunction () {
-                    document.body.scrollTop = 0;
-                    document.documentElement.scrollTop = 0;
-                }
-            </script>
     </section>
- 
-    <!-- <script>
-        $(function(){
-            $('.navbar-toggler').click(function(){
-                $('body').toggleClass('noscroll');
-            })
-
-        });
-    </script> -->
-
+      
     <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if(document.body.scrollTop > 20 || document.documentElement. scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            }else{
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        function topFunction () {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        </script>
+        <script>
         addEventListener('DOMContentLoaded', () => {
-    const btn_menu = document.querySelector('.btn_menu')
-    if (btn_menu) {
-        btn_menu.addEventListener('click', () => {
-             const menu_items = document.querySelector('.menu_items')
-             menu_items.classList.toggle('show')
+        const btn_menu = document.querySelector('.btn_menu')
+            if (btn_menu) {
+               btn_menu.addEventListener('click', () => {
+        const menu_items = document.querySelector('.menu_items')
+              menu_items.classList.toggle('show')
         })
     }
 })
     </script>
 
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+    crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+    crossorigin="anonymous"></script>
 
 <script type="text/javascript" src=""></script>
 </body>
